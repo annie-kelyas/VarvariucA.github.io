@@ -1,1 +1,1 @@
-<https://VarvariucA.github.io/blob/master/clock.html>
+https://VarvariucA.github.io/blob/master/clock.html
