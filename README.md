@@ -1,7 +1,12 @@
 Доброго времени суток. Вы находитесь в GITHUBе студента МГТУ "Станкин" группы ИДБ-14-12 Варварюка Александра
 
-Гитхаб: [тык](https://github.com/VarvariucA/VarvariucA.github.io)
+Задание на первый модуль:
+Регистрация в GitHub.com
+Создание репозитория VarvariucA.github.io
+Создание и заполнение файла index.html (часы+текст+ссылки)
+Регистрация личной страницы в списке групп с использованием fork
+Заполенение файла README.md
+
+Гитхаб: [Ссылка](https://github.com/VarvariucA/VarvariucA.github.io)
 <br>
-https://VarvariucA.github.io
-<br>
-https://VarvariucA.github.io/wiki
+Личная страница: [Ссылка](https://VarvariucA.github.io)
