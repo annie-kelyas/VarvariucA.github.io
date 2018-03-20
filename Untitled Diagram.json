@@ -1,0 +1,580 @@
+{
+  "mxGraphModel": {
+    "-dx": "1426",
+    "-dy": "720",
+    "-grid": "1",
+    "-gridSize": "10",
+    "-guides": "1",
+    "-tooltips": "1",
+    "-connect": "1",
+    "-arrows": "1",
+    "-fold": "1",
+    "-page": "1",
+    "-pageScale": "1",
+    "-pageWidth": "850",
+    "-pageHeight": "1100",
+    "-background": "#ffffff",
+    "-math": "0",
+    "-shadow": "0",
+    "root": {
+      "mxCell": [
+        { "-id": "0" },
+        {
+          "-id": "1",
+          "-parent": "0"
+        },
+        {
+          "-id": "33",
+          "-value": "Студент",
+          "-style": "swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;",
+          "-vertex": "1",
+          "-parent": "1",
+          "mxGeometry": {
+            "-x": "350",
+            "-y": "50",
+            "-width": "160",
+            "-height": "190",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "37",
+          "-value": "ФИО : String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "26",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "34",
+          "-value": "НомерЗачётки: Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "52",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "38",
+          "-value": "СреднийБалл:Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "78",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "39",
+          "-value": "Телефон : String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "104",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "35",
+          "-style": "line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "130",
+            "-width": "160",
+            "-height": "8",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "36",
+          "-value": "Записаться()",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "138",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "40",
+          "-value": "ПолучитьКурс()",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "33",
+          "mxGeometry": {
+            "-y": "164",
+            "-width": "160",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "49",
+          "-value": "Группа",
+          "-style": "swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;",
+          "-vertex": "1",
+          "-parent": "1",
+          "mxGeometry": {
+            "-x": "40",
+            "-y": "68",
+            "-width": "180",
+            "-height": "138",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "50",
+          "-value": "Название: String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "49",
+          "mxGeometry": {
+            "-y": "26",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "51",
+          "-value": "НомерНаправления: Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "49",
+          "mxGeometry": {
+            "-y": "52",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "52",
+          "-value": "Староста: String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "49",
+          "mxGeometry": {
+            "-y": "78",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "54",
+          "-style": "line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "49",
+          "mxGeometry": {
+            "-y": "104",
+            "-width": "180",
+            "-height": "8",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "55",
+          "-value": "Создать()",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "49",
+          "mxGeometry": {
+            "-y": "112",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "57",
+          "-value": "Преподаватель",
+          "-style": "swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;",
+          "-vertex": "1",
+          "-parent": "1",
+          "mxGeometry": {
+            "-x": "50",
+            "-y": "284",
+            "-width": "180",
+            "-height": "180",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "58",
+          "-value": "ФИО : String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "57",
+          "mxGeometry": {
+            "-y": "26",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "59",
+          "-value": "Зарплата: Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "57",
+          "mxGeometry": {
+            "-y": "52",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "60",
+          "-value": "Адрес: string",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "57",
+          "mxGeometry": {
+            "-y": "78",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "64",
+          "-value": "Телефон : String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "57",
+          "mxGeometry": {
+            "-y": "104",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "61",
+          "-style": "line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "57",
+          "mxGeometry": {
+            "-y": "130",
+            "-width": "180",
+            "-height": "50",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "73",
+          "-value": "Курс",
+          "-style": "swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;",
+          "-vertex": "1",
+          "-parent": "1",
+          "mxGeometry": {
+            "-x": "335",
+            "-y": "284",
+            "-width": "180",
+            "-height": "190",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "74",
+          "-value": "Название: String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "26",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "75",
+          "-value": "Номер: Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "52",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "76",
+          "-value": "Стоимость: String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "78",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "81",
+          "-value": "Преподаватель: String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "104",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "77",
+          "-style": "line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "130",
+            "-width": "180",
+            "-height": "8",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "78",
+          "-value": "ДобавитьСтудента()
+",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "138",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "79",
+          "-value": "УдалитьСтудента()
+",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "73",
+          "mxGeometry": {
+            "-y": "164",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "80",
+          "-value": "Записан",
+          "-style": "endArrow=classic;html=1;entryX=0;entryY=0.161;entryPerimeter=0;exitX=1;exitY=0.079;exitPerimeter=0;",
+          "-edge": "1",
+          "-parent": "1",
+          "-source": "33",
+          "-target": "95",
+          "mxGeometry": {
+            "-x": "-0.0365",
+            "-y": "11",
+            "-width": "50",
+            "-height": "50",
+            "-relative": "1",
+            "-as": "geometry",
+            "mxPoint": [
+              {
+                "-x": "232",
+                "-y": "68",
+                "-as": "sourcePoint"
+              },
+              {
+                "-x": "338",
+                "-y": "68",
+                "-as": "targetPoint"
+              },
+              { "-as": "offset" }
+            ]
+          }
+        },
+        {
+          "-id": "82",
+          "-value": "НаходитсяВ",
+          "-style": "endArrow=classic;html=1;entryX=1.011;entryY=0.116;entryPerimeter=0;exitX=-0.006;exitY=0.1;exitPerimeter=0;",
+          "-edge": "1",
+          "-parent": "1",
+          "-source": "33",
+          "-target": "49",
+          "mxGeometry": {
+            "-x": "0.0713",
+            "-y": "-17",
+            "-width": "50",
+            "-height": "50",
+            "-relative": "1",
+            "-as": "geometry",
+            "mxPoint": [
+              {
+                "-x": "10",
+                "-y": "580",
+                "-as": "sourcePoint"
+              },
+              {
+                "-x": "60",
+                "-y": "530",
+                "-as": "targetPoint"
+              },
+              { "-as": "offset" }
+            ]
+          }
+        },
+        {
+          "-id": "95",
+          "-value": "Прохождение курса",
+          "-style": "swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;",
+          "-vertex": "1",
+          "-parent": "1",
+          "mxGeometry": {
+            "-x": "600",
+            "-y": "46",
+            "-width": "180",
+            "-height": "112",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "96",
+          "-value": "НазваниеКурса : String",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "95",
+          "mxGeometry": {
+            "-y": "26",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "99",
+          "-value": "Оценка: Integer",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "95",
+          "mxGeometry": {
+            "-y": "52",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "97",
+          "-style": "line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "95",
+          "mxGeometry": {
+            "-y": "78",
+            "-width": "180",
+            "-height": "8",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "98",
+          "-value": "ПолучитьБалл()",
+          "-style": "text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;",
+          "-vertex": "1",
+          "-parent": "95",
+          "mxGeometry": {
+            "-y": "86",
+            "-width": "180",
+            "-height": "26",
+            "-as": "geometry"
+          }
+        },
+        {
+          "-id": "100",
+          "-value": "Проходит",
+          "-style": "endArrow=classic;html=1;exitX=0.017;exitY=1.192;exitPerimeter=0;entryX=1.006;entryY=0.1;entryPerimeter=0;",
+          "-edge": "1",
+          "-parent": "1",
+          "-source": "98",
+          "-target": "73",
+          "mxGeometry": {
+            "-x": "-0.1232",
+            "-y": "30",
+            "-width": "50",
+            "-height": "50",
+            "-relative": "1",
+            "-as": "geometry",
+            "mxPoint": [
+              {
+                "-x": "540",
+                "-y": "140",
+                "-as": "sourcePoint"
+              },
+              {
+                "-x": "590",
+                "-y": "90",
+                "-as": "targetPoint"
+              },
+              { "-as": "offset" }
+            ]
+          }
+        },
+        {
+          "-id": "101",
+          "-value": "Преподаёт",
+          "-style": "endArrow=classic;html=1;exitX=1.017;exitY=0.022;exitPerimeter=0;entryX=0;entryY=0.079;entryPerimeter=0;",
+          "-edge": "1",
+          "-parent": "1",
+          "-source": "57",
+          "-target": "73",
+          "mxGeometry": {
+            "-x": "-0.0246",
+            "-y": "16",
+            "-width": "50",
+            "-height": "50",
+            "-relative": "1",
+            "-as": "geometry",
+            "mxPoint": [
+              {
+                "-x": "420",
+                "-y": "430",
+                "-as": "sourcePoint"
+              },
+              {
+                "-x": "470",
+                "-y": "380",
+                "-as": "targetPoint"
+              },
+              { "-as": "offset" }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
